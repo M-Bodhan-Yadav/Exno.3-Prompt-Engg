@@ -23,15 +23,15 @@ Algorithm
 	•	Objective: Use previous interactions to provide context-aware responses.
 
 	•	Prompt Pattern:
-“If the customer previously mentioned that they haven’t received their order, say: ‘I see that you mentioned your order hasn’t arrived yet. Let me check the details for you and get back shortly.’”
+“If the customer previously mentioned that they haven’t received their order, say: ‘I see that you mentioned your order hasn’t arrived yet. Let me check the details for you and get back shortly.”
 
 4. Persona-Based Prompting
 	•	Objective: Make chatbot interactions more engaging by assigning it a persona.
 	•	Prompt Pattern:
-“Pretend you are a friendly, helpful customer service representative. Use a conversational tone, such as ‘Hey there! I’m here to help with any questions you might have. Let’s get your issue sorted!’”
+“Pretend you are a friendly, helpful customer service representative. Use a conversational tone, such as ‘Hey there! I’m here to help with any questions you might have. Let’s get your issue sorted!
 
 5. Few-Shot Prompting
-	•	Objective: Provide examples to help the AI generalize responses.
+	•	Objective: Provide examples to help the AI generalise responses.
 	•	Prompt Pattern:
 “Here are some examples of how to handle technical questions:
 	•	‘My phone isn’t charging.’ → ‘Have you tried using a different cable? If that doesn’t work, it may be an issue with the port.’
@@ -44,21 +44,21 @@ Prompt Pattern: “When a customer reports their laptop overheating, guide them 
 
 7. Instruction with Constraints
 	•	Objective: Ensure responses are clear, concise, and within constraints.
-Prompt Pattern: “Respond to order inquiries in no more than 50 words and avoid using technical jargon.For example: ‘Your order is on the way and should arrive by [date]. Feel free to reach out if you need anything else.’”
+Prompt Pattern: “Respond to order inquiries in no more than 50 words and avoid using technical jargon. For example: ‘Your order is on the way and should arrive by [date]. Feel free to reach out if you need anything else.’”
 
 8. Reflective Prompting
 	•	Objective: Reduce misunderstandings by reflecting the customer’s query.
 	•	Prompt Pattern:
-“When a customer asks for help, first reflect their question back. For example, if they ask ‘How can I reset my password?’ respond with ‘You’re asking how to reset your password, correct? Here’s how you can do it.’”
+“When a customer asks for help, first reflect their question. For example, if they ask, ‘How can I reset my password?’ respond with, ‘You’re asking how to reset your password, correct? Here’s how you can do it.’”
 
 Comparison Table of Prompting Techniques
 
 | **Prompting Technique**       | **Objective**                          | **Example**                                           | **Advantage**                         |
 |--------------------------------|----------------------------------------|-------------------------------------------------------|---------------------------------------|
 | Direct Instruction             | Give concise replies                   | “Your order is being processed and will be delivered by [date].” | Quick and straightforward response    |
-| Contextual Prompting           | Use past interactions for better replies | “I see that you mentioned your order hasn’t arrived yet…” | Personalized, context-aware support   |
+| Contextual Prompting           | Use past interactions for better replies | “I see that you mentioned your order hasn’t arrived yet…” | Personalised, context-aware support   |
 | Persona-Based Prompting        | Adopt a friendly/helpful personality   | “Hey there! I’m here to help…”                        | Builds customer trust and engagement  |
-| Few-Shot Prompting             | Learn from examples to handle queries  | “My phone isn’t charging → Try a different cable.”     | Helps AI generalize across similar cases |
+| Few-Shot Prompting             | Learn from examples to handle queries  | “My phone isn’t charging → Try a different cable.”     | Helps AI generalise across similar cases |
 | Chain of Thought Prompting     | Break down complex issues step by step | Guiding steps for laptop overheating                  | Structured, logical troubleshooting   |
 | Instruction with Constraints   | Respond with specific limits           | Max 50 words, no jargon                               | Ensures clarity and brevity            |
 | Reflective Prompting           | Repeat query before answering          | “You’re asking how to reset your password, correct?”   | Reduces misunderstandings             |
